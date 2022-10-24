@@ -3,9 +3,8 @@ Telegram bot translitetare full name from cyrillic to latin to the norm of MFA.
 
  <img src='tg.jpeg'>
 
-How to run:
-- get token from [@BotFather](https://t.me/botfather) to dockerfile
-
+First, add token from [@BotFather](https://t.me/botfather) to dockerfile
+Then:
 ```
 docker build -t bot .
 docker run -d -p 80:80 bot
